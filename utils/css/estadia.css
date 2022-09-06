@@ -1,0 +1,772 @@
+.card-weather{
+    border-radius: 10px !important;
+    background-color: #EDEFF2;
+    color: #5d5d5d !important;
+
+}
+
+.card-image{
+
+    background-color: #0067C0 !important;
+    color: #fff !important;
+}
+.card-footer{
+    color: #5d5d5d !important;
+}
+
+.btn-estadia{
+    color: #fff !important;
+}
+
+ .owl-dot {
+visibility: hidden;
+  }
+  .container-arequipa {
+    height: 25vh;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+}
+
+.uix {
+    will-change: transform;
+}
+
+#ui {
+    transform-style: preserve-3d;
+}
+
+#ui .text {
+    position: absolute;
+    font-size: clamp(15rem, 8rem, 5rem);
+    color: #fff;
+    line-height: 15rem;
+    font-family: "Anton", sans-serif;
+    padding: 20px 0;
+    mix-blend-mode: screen;
+    transform-style: preserve-3d;
+}
+
+#ui .text:nth-child(1) {
+    -webkit-clip-path: polygon(-30% 0, -20% 0, 20% 100%, 0% 100%);
+    clip-path: polygon(-30% 0, -20% 0, 20% 100%, 0% 100%);
+    -webkit-animation: wave 2000ms -10000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -10000ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(2) {
+    -webkit-clip-path: polygon(-25% 0, -15% 0, 25% 100%, 5% 100%);
+    clip-path: polygon(-25% 0, -15% 0, 25% 100%, 5% 100%);
+    -webkit-animation: wave 2000ms -9800ms ease-in-out infinite alternate;
+    animation: wave 2000ms -9800ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(3) {
+    -webkit-clip-path: polygon(-20% 0, -10% 0, 30% 100%, 10% 100%);
+    clip-path: polygon(-20% 0, -10% 0, 30% 100%, 10% 100%);
+    -webkit-animation: wave 2000ms -9600ms ease-in-out infinite alternate;
+    animation: wave 2000ms -9600ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(4) {
+    -webkit-clip-path: polygon(-15% 0, -5% 0, 35% 100%, 15% 100%);
+    clip-path: polygon(-15% 0, -5% 0, 35% 100%, 15% 100%);
+    -webkit-animation: wave 2000ms -9400ms ease-in-out infinite alternate;
+    animation: wave 2000ms -9400ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(5) {
+    -webkit-clip-path: polygon(-10% 0, 0% 0, 40% 100%, 20% 100%);
+    clip-path: polygon(-10% 0, 0% 0, 40% 100%, 20% 100%);
+    -webkit-animation: wave 2000ms -9200ms ease-in-out infinite alternate;
+    animation: wave 2000ms -9200ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(6) {
+    -webkit-clip-path: polygon(-5% 0, 5% 0, 45% 100%, 25% 100%);
+    clip-path: polygon(-5% 0, 5% 0, 45% 100%, 25% 100%);
+    -webkit-animation: wave 2000ms -9000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -9000ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(7) {
+    -webkit-clip-path: polygon(0% 0, 10% 0, 50% 100%, 30% 100%);
+    clip-path: polygon(0% 0, 10% 0, 50% 100%, 30% 100%);
+    -webkit-animation: wave 2000ms -8800ms ease-in-out infinite alternate;
+    animation: wave 2000ms -8800ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(8) {
+    -webkit-clip-path: polygon(5% 0, 15% 0, 55% 100%, 35% 100%);
+    clip-path: polygon(5% 0, 15% 0, 55% 100%, 35% 100%);
+    -webkit-animation: wave 2000ms -8600ms ease-in-out infinite alternate;
+    animation: wave 2000ms -8600ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(9) {
+    -webkit-clip-path: polygon(10% 0, 20% 0, 60% 100%, 40% 100%);
+    clip-path: polygon(10% 0, 20% 0, 60% 100%, 40% 100%);
+    -webkit-animation: wave 2000ms -8400ms ease-in-out infinite alternate;
+    animation: wave 2000ms -8400ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(10) {
+    -webkit-clip-path: polygon(15% 0, 25% 0, 65% 100%, 45% 100%);
+    clip-path: polygon(15% 0, 25% 0, 65% 100%, 45% 100%);
+    -webkit-animation: wave 2000ms -8200ms ease-in-out infinite alternate;
+    animation: wave 2000ms -8200ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(11) {
+    -webkit-clip-path: polygon(20% 0, 30% 0, 70% 100%, 50% 100%);
+    clip-path: polygon(20% 0, 30% 0, 70% 100%, 50% 100%);
+    -webkit-animation: wave 2000ms -8000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -8000ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(12) {
+    -webkit-clip-path: polygon(25% 0, 35% 0, 75% 100%, 55% 100%);
+    clip-path: polygon(25% 0, 35% 0, 75% 100%, 55% 100%);
+    -webkit-animation: wave 2000ms -7800ms ease-in-out infinite alternate;
+    animation: wave 2000ms -7800ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(13) {
+    -webkit-clip-path: polygon(30% 0, 40% 0, 80% 100%, 60% 100%);
+    clip-path: polygon(30% 0, 40% 0, 80% 100%, 60% 100%);
+    -webkit-animation: wave 2000ms -7600ms ease-in-out infinite alternate;
+    animation: wave 2000ms -7600ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(14) {
+    -webkit-clip-path: polygon(35% 0, 45% 0, 85% 100%, 65% 100%);
+    clip-path: polygon(35% 0, 45% 0, 85% 100%, 65% 100%);
+    -webkit-animation: wave 2000ms -7400ms ease-in-out infinite alternate;
+    animation: wave 2000ms -7400ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(15) {
+    -webkit-clip-path: polygon(40% 0, 50% 0, 90% 100%, 70% 100%);
+    clip-path: polygon(40% 0, 50% 0, 90% 100%, 70% 100%);
+    -webkit-animation: wave 2000ms -7200ms ease-in-out infinite alternate;
+    animation: wave 2000ms -7200ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(16) {
+    -webkit-clip-path: polygon(45% 0, 55% 0, 95% 100%, 75% 100%);
+    clip-path: polygon(45% 0, 55% 0, 95% 100%, 75% 100%);
+    -webkit-animation: wave 2000ms -7000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -7000ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(17) {
+    -webkit-clip-path: polygon(50% 0, 60% 0, 100% 100%, 80% 100%);
+    clip-path: polygon(50% 0, 60% 0, 100% 100%, 80% 100%);
+    -webkit-animation: wave 2000ms -6800ms ease-in-out infinite alternate;
+    animation: wave 2000ms -6800ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(18) {
+    -webkit-clip-path: polygon(55% 0, 65% 0, 105% 100%, 85% 100%);
+    clip-path: polygon(55% 0, 65% 0, 105% 100%, 85% 100%);
+    -webkit-animation: wave 2000ms -6600ms ease-in-out infinite alternate;
+    animation: wave 2000ms -6600ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(19) {
+    -webkit-clip-path: polygon(60% 0, 70% 0, 110% 100%, 90% 100%);
+    clip-path: polygon(60% 0, 70% 0, 110% 100%, 90% 100%);
+    -webkit-animation: wave 2000ms -6400ms ease-in-out infinite alternate;
+    animation: wave 2000ms -6400ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(20) {
+    -webkit-clip-path: polygon(65% 0, 75% 0, 115% 100%, 95% 100%);
+    clip-path: polygon(65% 0, 75% 0, 115% 100%, 95% 100%);
+    -webkit-animation: wave 2000ms -6200ms ease-in-out infinite alternate;
+    animation: wave 2000ms -6200ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(21) {
+    -webkit-clip-path: polygon(70% 0, 80% 0, 120% 100%, 100% 100%);
+    clip-path: polygon(70% 0, 80% 0, 120% 100%, 100% 100%);
+    -webkit-animation: wave 2000ms -6000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -6000ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(22) {
+    -webkit-clip-path: polygon(75% 0, 85% 0, 125% 100%, 105% 100%);
+    clip-path: polygon(75% 0, 85% 0, 125% 100%, 105% 100%);
+    -webkit-animation: wave 2000ms -5800ms ease-in-out infinite alternate;
+    animation: wave 2000ms -5800ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(23) {
+    -webkit-clip-path: polygon(80% 0, 90% 0, 130% 100%, 110% 100%);
+    clip-path: polygon(80% 0, 90% 0, 130% 100%, 110% 100%);
+    -webkit-animation: wave 2000ms -5600ms ease-in-out infinite alternate;
+    animation: wave 2000ms -5600ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(24) {
+    -webkit-clip-path: polygon(85% 0, 95% 0, 135% 100%, 115% 100%);
+    clip-path: polygon(85% 0, 95% 0, 135% 100%, 115% 100%);
+    -webkit-animation: wave 2000ms -5400ms ease-in-out infinite alternate;
+    animation: wave 2000ms -5400ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(25) {
+    -webkit-clip-path: polygon(90% 0, 100% 0, 140% 100%, 120% 100%);
+    clip-path: polygon(90% 0, 100% 0, 140% 100%, 120% 100%);
+    -webkit-animation: wave 2000ms -5200ms ease-in-out infinite alternate;
+    animation: wave 2000ms -5200ms ease-in-out infinite alternate;
+}
+
+#ui .text:nth-child(26) {
+    -webkit-clip-path: polygon(95% 0, 105% 0, 145% 100%, 125% 100%);
+    clip-path: polygon(95% 0, 105% 0, 145% 100%, 125% 100%);
+    -webkit-animation: wave 2000ms -5000ms ease-in-out infinite alternate;
+    animation: wave 2000ms -5000ms ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes wave {
+    0% {
+        transform: translate(-50%, -50%) scale(0.9) rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+        color: #1c3f91;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        color: #32e6ff;
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translate(-50%, -50%) scale(0.9) rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+        color: #001e64;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        color: #32e6ff;
+    }
+}
+
+.zoom {
+
+    transition: transform .2s !important;
+    /* Animation */
+
+}
+
+.zoom:hover {
+    transform: scale(1.5) !important;
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+  .card-image .zoom{
+      height: auto !important;
+  }
+  .scrollToTopBtn {
+    background-color: #949495;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 48px;
+    width: 48px;
+
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    /* keep it at the top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
+    transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+    -o-transition: background-color .3s;
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0);
+}
+  iframe{
+      height: 300px !important;
+  }
+
+#gastronomia{
+    height: 700px !important;
+}
+
+.icon-img{
+    width: 50px;
+    height: 50px;
+}
+
+.iconx{
+    padding: 4px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.demo-scroll a {
+
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+p.demo-scroll a:hover {
+    opacity: 0.7;
+}
+#section03 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+#section03 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: -12px 0 0 -8px;
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+#section03 a span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: "";
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    opacity: 0;
+    box-sizing: border-box;
+    animation: sdb03 1.5s infinite;
+}
+@keyframes sdb03 {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.card-footer{
+    margin-top: -10px;
+}
+
+.sldk{
+    width: 50%;
+}
+.slidermonfus {
+    width: 120%;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: scale 3s linear infinite;
+ 
+}
+@keyframes scale {
+    100% {
+        width: 100%;
+    }
+}
+
+.slide1 {
+    animation: slide1 12s linear infinite;
+}
+
+.slide2 {
+    animation: slide2 12s linear infinite;
+}
+
+.slide3 {
+    animation: slide3 12s linear infinite;
+}
+
+.slide4 {
+    animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        visibility: visible;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes slide4 {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+
+.img-estadia {
+    clip-path: polygon(0 0, 100% 0%, 86% 100%, 0 100%);
+}
+.btn-estadia {
+    float: right;
+    color: #fff;
+}
+.arequipa {
+    text-align: right;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+
+}
+
+@media (min-width: 1281px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+    button .btn-shared-posters {
+        margin-top: -40px !important;
+    }
+    .estadia-sh{
+        margin-top: -40px !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+    button .btn-shared-posters {
+        margin-top: -40px !important;
+    }
+    .estadia-sh{
+        margin-top: -40px !important;
+    }
+  }
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  @media (min-width: 964px) and (max-width: 882px) {
+  
+    section #atractivos{
+        margin-top: 500px  !important;
+    }
+    
+  }
+  @media (min-width: 993px) and (max-width: 1200px) {
+  
+  
+nav .navbar-nav ul li a {
+    font-size: 8px !important;
+}
+
+  }
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+    
+  }
+
+    
+  @media (min-width: 320px) and (max-width: 882px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+    #atractivos{
+        height: 600px !important;
+    }
+    .c-atractivos{
+        margin-top: -200px;
+    }
+    
+  }
+
+  @media (min-width: 360px) and (max-width: 640px) {
+    .atractivos-svg{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658352713/Condor_fondo_svg_omsjfx.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        z-index: 1;
+        background-color: #EDEFF2 !important;
+    }
+
+    .c-hoteles{
+        margin-top: 200px !important;
+    }
+    
+  }
+  @media (min-width: 360px) and (max-width: 640px) {
+  
+.c-info{
+    margin-top: 400px !important;
+}
+    .c-hoteles{
+        margin-top: -100px !important;
+    }
+    
+  }
+
+  @media (min-width: 480px) and (max-width: 854px) {
+  
+    .c-info{
+        margin-top: -100px !important;
+    }
+        
+        
+      }
+
+      @media (min-width: 393px) and (max-width: 786px) {
+        .c-info{
+            margin-top: -100px !important;
+        }
+        .c-hoteles{
+            margin-top: 60px !important;
+        }
+          }
+
+          
+      @media (min-width: 353px) and (max-width: 745px) {
+        .c-info{
+            margin-top: -200px !important;
+        }
+        .c-hoteles{
+            margin-top: 100px !important;
+        }
+          }
+
+          @media (min-width: 320px) and (max-width: 480px) {
+            .c-info{
+                margin-top: 100px !important;
+            }
+            .c-hoteles{
+                margin-top: 360px !important;
+            }
+              }
+
+              @media (min-width: 390px) and (max-width: 844px) {
+                .c-info{
+                    margin-top: -100px !important;
+                }
+                .c-hoteles{
+                    margin-top: -100px !important;
+                }
+                  }
+
+                  @media (min-width: 412px) and (max-width: 915px) {
+                    .c-info{
+                        margin-top: -100px !important;
+                    }
+                    .c-hoteles{
+                        margin-top: -100px !important;
+                    }
+                      }
+
+                      
+                  @media (min-width: 320px) and (max-width: 882px) {
+                    .c-info{
+                        margin-top: -250px !important;
+                    }
+                    .c-hoteles{
+                        margin-top: -50px !important;
+                    }
+                      }

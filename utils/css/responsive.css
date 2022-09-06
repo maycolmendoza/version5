@@ -1,0 +1,1305 @@
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+    #menu_bars {
+        display: none;
+    }
+
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}
+       
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+    #menu_bars {
+        display: none;
+    }
+ 
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+    
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+    .logos .scroll {
+    }
+    #myBtns {
+        display: none;
+    }
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}
+       
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+    .logos .scroll {
+        display: none;
+    }
+    #myBtns {
+        display: none;
+    }
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+} 
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #gastronomia{
+        margin-top: -50px !important;
+    }
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+    #ui .text {
+
+        font-size: 6rem !important;
+    }
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+ 
+    #myBtns {
+        display: none;
+    }
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}  
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 882px) {
+    .informacion{
+        margin-top: -430px !important;
+        position: relative ;
+    }
+    .informacion-div{
+       height: 80px;
+       
+    }
+    .xdf{
+        overflow-y: scroll; 
+  
+    }
+    .cont-estadia{
+        margin-top: -100px !important;
+    }
+ 
+    #evento{margin-top: -200px;}
+    .evento-content{
+        margin-top: -300px !important;
+    }
+    .evento1{
+        height: 60px !important;
+    }
+  }
+
+
+  
+  @media (min-width: 360px) and (max-width: 640px) {
+  
+    .evento-content{
+        margin-top: 0px !important;
+    }
+    .evento1{
+        height: 10px !important;
+    }
+    .gastronomia{
+        margin-top: 0px !important;
+
+    }
+    #gastronomia{
+
+    }
+    #info{
+        height: 700px !important;
+    }
+    .xdf{
+        overflow-y: scroll; 
+    }
+ 
+
+
+  }
+
+@media (min-width: 300px) and (max-width: 480px) {
+
+   nav .bg-transparent{
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    #evento{margin-top: -200px;}
+    .evento-content{
+        margin-top: -300px !important;
+    }
+    .evento1{
+        height: 60px !important;
+    }
+    .xdf{
+        overflow-y: scroll; 
+    }
+ 
+    .informacion{
+        margin-top: 140px !important;
+    }
+
+    
+    #gastronomia{
+        margin-top: -50px !important;
+    }
+    .gastronomia{
+        height: 80px!important;
+    }
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+
+    .aleatoriomaycol{
+        height: 900px;
+    }
+    /* CSS */
+  
+    #myBtns {
+        display: none;
+    }
+    /*EVENTO*/
+    .evento1 {
+        height: 50px !important;
+        margin-top: -200px;
+    }
+    .evento-content {
+        margin-top: -50px !important;
+    }
+    #evento {
+        margin-top: 0px !important;
+        height: 1000px;
+    }
+    /*END EVENTO*/
+    /*estadia*/
+    .estadia1 {
+        height: 100px !important;
+        margin-top: -200px;
+    }
+    #estadia {
+        margin-top: 0px !important;
+    }
+    .text-estadia {
+        text-align: right;
+        margin: 0px;
+    }
+    /*fin estadia*/
+    /*organizacion*/
+    .text-organizacion {
+        line-height: 38px !important;
+    }
+    /*fin organizacion*/
+    /*ICONO DEL MENU*/
+    .menu_bars {
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        width: 30px;
+    }
+    /*FIN DEL ICONO DEL MENU*/
+    /*MENU*/
+    .bg-transparent {
+        background-color: transparent !important;
+    }
+    .navbar {
+        background-color: transparent !important;
+    }
+    .header.header-appear nav.header-light,
+    header.sticky nav.navbar-fixed-top.header-light,
+    header.sticky nav.navbar-scroll-fixed-top.header-light {
+        background-color: transparent !important;
+        background-image: none;
+    }
+    .sticky .header-appear {
+        display: none;
+        background-color: transparent !important;
+        background-image: none;
+    }
+    /*FIN MENU*/
+    /*IMG EVENTO*/
+    .img-evento {
+        max-width: 300px !important;
+        height: 80%;
+    }
+    /*FIN EVENTO IMG*/
+    .logo-montañas {
+        max-width: 300px !important;
+    }
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}  
+#ui .text {
+
+    font-size: 6rem !important;
+} 
+.img-evento{
+    margin-top: 30px !important;
+}
+
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .xdf{
+        overflow-y: scroll;
+    }
+    #evento{margin-top: -200px;}
+    .evento-content{
+        margin-top: -300px !important;
+    }
+    .evento1{
+        height: 60px !important;
+    }
+
+
+ 
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+
+    .aleatoriomaycol{
+        height: 900px;
+    }
+
+    /* CSS */
+ 
+    #myBtns {
+        display: none;
+    }
+    /*EVENTO*/
+    .evento1 {
+        height: 50px !important;
+        margin-top: -200px;
+    }
+    .evento-content {
+        margin-top: -50px !important;
+    }
+    #evento {
+        margin-top: 0px !important;
+        height: 1200px;
+    }
+    /*END EVENTO*/
+    /*estadia*/
+    .estadia1 {
+        height: 100px !important;
+        margin-top: -200px;
+    }
+    #estadia {
+        margin-top: 0px !important;
+    }
+    .text-estadia {
+        text-align: right;
+        margin: 0px;
+    }
+    /*fin estadia*/
+    /*organizacion*/
+    .text-organizacion {
+        line-height: 38px !important;
+    }
+    /*fin organizacion*/
+    /*ICONO DEL MENU*/
+    .menu_bars {
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        width: 30px;
+    }
+    /*FIN DEL ICONO DEL MENU*/
+    /*MENU*/
+    .bg-transparent {
+        background-color: transparent !important;
+    }
+    .navbar {
+        background-color: transparent !important;
+    }
+    .header.header-appear nav.header-light,
+    header.sticky nav.navbar-fixed-top.header-light,
+    header.sticky nav.navbar-scroll-fixed-top.header-light {
+        background-color: transparent !important;
+        background-image: none;
+    }
+    .sticky .header-appear {
+        display: none;
+        background-color: transparent !important;
+        background-image: none;
+    }
+    /*FIN MENU*/
+    /*IMG EVENTO*/
+    .img-evento {
+        max-width: 100px !important;
+    }
+    /*FIN EVENTO IMG*/
+    /*IMG FOOTER*/
+    .logo-montañas {
+        max-width: 300px !important;
+    }
+    /*FIN IMG FOOTER*/
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}  
+#ui .text {
+
+    font-size: 6rem !important;
+}
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .organizadores{
+        background-color: #ffffff;margin-top: -50px;
+    }
+.aleatoriomaycol{
+    height: 900px;
+}
+
+
+    /* CSS */
+ 
+    #myBtns {
+        display: none;
+    }
+    /*EVENTO*/
+    .evento1 {
+        height: 50px !important;
+        margin-top: -200px;
+    }
+    .evento-content {
+        margin-top: -50px !important;
+    }
+    #evento {
+        margin-top: 0px !important;
+        height: 1200px;
+    }
+    /*END EVENTO*/
+    /*estadia*/
+    .estadia1 {
+        height: 100px !important;
+        margin-top: -200px;
+    }
+    #estadia {
+        margin-top: 0px !important;
+    }
+    .text-estadia {
+        text-align: right;
+        margin: 0px;
+    }
+    /*fin estadia*/
+    /*organizacion*/
+    .text-organizacion {
+        line-height: 38px !important;
+    }
+    /*fin organizacion*/
+    /*ICONO DEL MENU*/
+    .menu_bars {
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        width: 30px;
+    }
+    /*FIN DEL ICONO DEL MENU*/
+    /*MENU*/
+    .bg-transparent {
+        background-color: transparent !important;
+    }
+    .navbar {
+        background-color: transparent !important;
+    }
+    .header.header-appear nav.header-light,
+    header.sticky nav.navbar-fixed-top.header-light,
+    header.sticky nav.navbar-scroll-fixed-top.header-light {
+        background-color: transparent !important;
+        background-image: none;
+    }
+    .sticky .header-appear {
+        display: none;
+        background-color: transparent !important;
+        background-image: none;
+    }
+    /*FIN MENU*/
+    /*IMG EVENTO*/
+    .img-evento {
+        max-width: 300px !important;
+        height: 80%;
+    }
+    /*FIN EVENTO IMG*/
+    /*IMG FOOTER*/
+    .logo-montañas {
+        max-width: 300px !important;
+    }
+    /*FIN IMG FOOTER*/
+
+
+    .evento1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1655658314/logos%20monfu%202022/svg/2_Monta%C3%B1a_1_vcwfdd.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: -200px;
+        z-index: 1;
+        position: relative
+    }
+    .estadia1{
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658037163/Group_8_bsfl0f.svg');
+        background-repeat: inherit;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        margin-top: -100px;
+        z-index: 1;
+        position: relative;
+        background-color: #EDEFF2;
+    }
+
+
+    /* light navigation header maycol */
+
+header nav.navbar {
+    overflow: hidden;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1657547111/logos%20monfu%202022/svg/Group_1_3_suaox7.svg');
+    color: #5d5d5d !important;
+}
+
+
+
+
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658075434/Group_9_2_kwa6xs.png');
+}
+
+.gastronomia{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+   
+    position: relative;
+    z-index: 1;
+    background-color: #E0E0E0;
+   
+}
+       
+#ui .text {
+
+    font-size: 6rem !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*UPTADE*/
+/*PANTALLAS LARGAS */
+@media screen and (min-width: 1400px) {
+    .aleatoriomaycol {
+        height: 1200px !important;
+    }
+   
+    .estadia1{
+            
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659648862/logos%20monfu%202022/Fondo2_Castillo_1_1_jxyvvj.svg') !important;
+        background-repeat: inherit !important;;
+        background-size: cover !important;;
+        width: 100% !important;;
+        height: 400px !important;;
+        margin-top: -100px !important;;
+        z-index: 1 !important;;
+        position: relative !important;;
+        background-color: #EDEFF2 !important;;
+    }
+    /*header*/
+    header nav.navbar {
+        overflow: hidden;
+        width: 100%;
+        height: 90px;
+        object-fit: cover;
+    }
+    header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+background-color: none;
+object-fit: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659643589/logos%20monfu%202022/Group_1_t3gsnr.svg');
+color: #5d5d5d !important;
+}
+
+
+
+/*Background Footer*/
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659646583/logos%20monfu%202022/Frame_1_3_agtdqc.svg') !important;
+
+}
+section .organizadores{
+    margin-top: 0px !important;
+ 
+}
+
+.gastronomia{
+    margin-top: -300px !important;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+    position: relative;
+    z-index: 111;
+    background-color: #E0E0E0;
+}
+      
+  }
+
+  @media screen and (min-width: 1600px) {
+    .aleatoriomaycol {
+        height: 1200px !important;
+    }
+    
+    .estadia1{
+            
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659648862/logos%20monfu%202022/Fondo2_Castillo_1_1_jxyvvj.svg') !important;
+        background-repeat: inherit !important;;
+        background-size: cover !important;;
+        width: 100% !important;;
+        height: 400px !important;;
+        margin-top: -100px !important;;
+        z-index: 1 !important;;
+        position: relative !important;;
+        background-color: #EDEFF2 !important;;
+    }
+
+    /*header*/
+    header nav.navbar {
+        overflow: hidden;
+        width: 100%;
+        height: 90px;
+        object-fit: cover;
+    }
+    header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+background-color: none;
+object-fit: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659643589/logos%20monfu%202022/Group_1_t3gsnr.svg');
+color: #5d5d5d !important;
+}
+
+
+/*Background Footer*/
+
+footer{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659646583/logos%20monfu%202022/Frame_1_3_agtdqc.svg') !important;
+
+}
+section .organizadores{
+    margin-top: 0px !important;
+ 
+}
+
+.gastronomia{
+    margin-top: -300px !important;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+    position: relative;
+    z-index: 111;
+    background-color: #E0E0E0;
+}
+  }
+
+
+
+  @media screen and (min-width: 1900px) {
+    .aleatoriomaycol {
+        height: 1200px !important;
+    }
+
+    .estadia1{
+            
+        background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659648862/logos%20monfu%202022/Fondo2_Castillo_1_1_jxyvvj.svg') !important;
+        background-repeat: inherit !important;;
+        background-size: cover !important;;
+        width: 100% !important;;
+        height: 400px !important;;
+        margin-top: -100px !important;;
+        z-index: 1 !important;;
+        position: relative !important;;
+        background-color: #EDEFF2 !important;;
+    }
+    /*header*/
+    header nav.navbar {
+        overflow: hidden;
+        width: 100%;
+        height: 90px;
+        object-fit: cover;
+    }
+    header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+background-color: none;
+object-fit: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659643589/logos%20monfu%202022/Group_1_t3gsnr.svg');
+color: #5d5d5d !important;
+}
+
+
+/*Background Footer*/
+
+footer{
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659646583/logos%20monfu%202022/Frame_1_3_agtdqc.svg') !important;
+
+}
+section .organizadores{
+    margin-top: 0px !important;
+ 
+}
+
+.gastronomia{
+    margin-top: -300px !important;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+    position: relative;
+    z-index: 111;
+    background-color: #E0E0E0;
+}
+      
+
+  }
+
+
+
+
+  @media screen and (min-width: 3840px) {
+    /*For 4K Displays (Ultra HD)*/
+        .aleatoriomaycol {
+            height: 1200px !important;
+        }
+     
+
+        .estadia1{
+            background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659648862/logos%20monfu%202022/Fondo2_Castillo_1_1_jxyvvj.svg') !important;
+            background-repeat: inherit !important;;
+            background-size: cover !important;;
+            width: 100% !important;;
+            height: 400px !important;;
+            margin-top: -100px !important;;
+            z-index: 1 !important;;
+            position: relative !important;;
+            background-color: #EDEFF2 !important;;
+        }
+
+        /*header*/
+        header nav.navbar {
+            overflow: hidden;
+            width: 100%;
+            height: 90px;
+            object-fit: cover;
+            z-index: 111 !important;
+        }
+        header.header-appear nav.header-light,
+header.sticky nav.navbar-fixed-top.header-light,
+header.sticky nav.navbar-scroll-fixed-top.header-light {
+    background-color: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659643589/logos%20monfu%202022/Group_1_t3gsnr.svg');
+    color: #5d5d5d !important;
+    z-index: 111 !important;
+}
+
+
+/*Background Footer*/
+
+footer{
+
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1659646583/logos%20monfu%202022/Frame_1_3_agtdqc.svg') !important;
+
+
+}
+
+section .organizadores{
+    margin-top: 0px !important;
+ 
+}
+.gastronomia{
+    margin-top: -400px !important;
+    background-image: url('https://res.cloudinary.com/dicmh7cfa/image/upload/v1658083153/ROCOTO_FONDO_EST_kzkwtz.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+    position: relative;
+    z-index: 111;
+    background-color: #E0E0E0;
+}
+        
+    }
+
+    /*NAVBAR*/
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+  
+        /* CSS */
+        
+      }
+      
+      /* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+      
+      @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        
+        /* CSS */
+        
+      }
+      
+      /* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+      
+      @media (min-width: 481px) and (max-width: 767px) {
+        
+        /* CSS */
+        .bg-transparent .nav-white-text .navbar .navbar-default .bootsnav .navbar-fixed-top .nav-white .header-light .nav_line{
+
+            background-image: none !important;
+            background-color: transparent !important;
+        }
+        
+      }
+      
+      /* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+      
+      @media (min-width: 320px) and (max-width: 480px) {
+        
+        /* CSS */
+
+        header nav .bg-transparent .nav-white-text .navbar .navbar-default .bootsnav .navbar-fixed-top .nav-white .header-light .nav_line{
+
+            background-image: none !important;
+            background-color: transparent !important;
+            display: none !important;
+        }
+
+        .title-poster{
+            margin-top: -80px !important;
+        }
+        
+      }
+    
